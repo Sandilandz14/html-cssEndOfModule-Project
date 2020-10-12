@@ -1,10 +1,16 @@
 h1 {
-    background-color: red;
+    background-color:red;
+}
+h4{
+    color:red;
+    text-align: center;
+    text-decoration: underline;
 }
 header {
-    background-color: #666666;
+    background-color: gold;
     padding: 12px;
     text-align: center;
+    text-decoration-color: black underline;
     color: white;
     font-size: 20px;
 }
@@ -12,3 +18,47 @@ nav ul {
     list-style: none;
     padding: 10px;
 }
+article {
+    width: 85%;
+    height: 600px;
+    float: right;
+    background-image:url("EOM_Project_HTML_CSS/Images/Book.jpg");
+}
+nav{
+    width: 15%;
+    background-color: yellowgreen;
+    height: 600px;
+    display: inline-block;
+}
+footer {
+    padding: 18px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    background-color: orange;
+}
+h3 {
+    text-align: center;
+    color: tomato;
+}
+body {
+    background-image: url("llandudno.jpg");
+    background-repeat: no-repeat;
+  }
+  .slide-container{
+      width:400px;
+      height:400px;
+  }
+  .image-container{
+      width:2000px;
+      height:400px;
+      position: relative;
+      transition: left 2s;
+      -moz-transition: left 2s;
+      -webkit-transition: left 2s;
+      -o-transition: lest 2s;
+  }
+  .slider-image{
+      float: left;
+      margin: 0%;
+      padding: 0%;
+  }
