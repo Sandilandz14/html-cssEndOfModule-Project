@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="CSS/main.css">
     <title>
-        EOM Project 1.
+        Sefer Bookstore3
     </title>
     <link href="main.css" rel="stylesheet" type="text/css"/>
     <meta charset="UTF-8">
@@ -14,10 +14,13 @@
 <body background="Ancient.jpg">
     
 <header>
+    <div id="logo">
+        <img src="Images/logo1.jpg" alt="My Logo" width=150px height=100px>
+    </div>
     <div>
-        <h3>
+        <h2 id="name1">
             <em>Sefer ha-Yasar'el</em>
-        </h3>
+        </h2>
     <div id="search">
         <table>
             <td>
@@ -39,13 +42,34 @@
     </nav>
 </header>
 <nav id="sideb">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact-us.html">Contact Us</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-    </ul>
+    <div class="dropdown">
+        <button class="dropbtn">Local Authors</button>
+        <div class="dropdown-content">
+          <a href="#">Sindiwe Magona</a>
+          <a href="#">Dudu Busani Dube</a>
+          <a href="#">Chinua Achebe</a>
+          <a href="#">Jackie Phamotse</a>
+        </div>
+      </div> &nbsp;&nbsp;
+      <div class="dropdown">
+        <button class="dropbtn">Global Authors</button>
+        <div class="dropdown-content">
+          <a href="#">Gustave Flaubert</a>
+          <a href="#">Anton Chekov</a>
+          <a href="#">Victor Hugo</a>
+        </div>
+      </div> &nbsp;&nbsp;
+      <div class="dropdown">
+        <button class="dropbtn">Special Selection</button>
+        <div class="dropdown-content">
+          <a href="#">Trevor Noah</a>
+          <a href="#">Chimamande Ngozi</a>
+          <a href="#">Sandile Tukani</a>
+          <a href="#">Lelethu Ndidi</a>
+        </div>
+      </div> 
 </nav>
+
 <article background="Ancient.jpg">  
     <div id="head3">
         <h3>Books for Book worms!!</h3>
@@ -60,33 +84,97 @@
                 <img src="Images/Nature.jpg" class="slider-image">
                 <img src="Images/Jay.png" class="slider-image">
                 <img src="Images/Obama.jpg" class="slider-image">
-                <img src="Images/Nigger.png" class="slider-image">  
-            </marquee><br/>&nbsp;<br/>&nbsp;
-
-            <marquee behavior="alternate">
-                <h4>
+                <img src="Images/Nigger.png" class="slider-image"> 
+                <img src="Images/beautiful.png" class="slider-image">
+            </marquee><br/>&nbsp;
+                <h2 id="publish">
                     <em>
-                Top 10 Bestsellers
+                Publisher's Choice
                     </em>
-                </h4>
-            </marquee><br/>
-            <marquee scrollamount="10" direction="right" onmouseover="stop()" onmouseout="start()">
-                <img src="Images/IQUNGA.png" class="slider-image">
-                <img src="Images/IRON.png" class="slider-image">
-                <img src="Images/HURT.png" class="slider-image">
-                <img src="Images/BED.png" class="slider-image">
-                <img src="Images/VIRTUE.jpg" class="slider-image">
-                <img src="Images/MAGONA2.png" class="slider-image">
-                <img src="Images/KILL.png" class="slider-image">
-                <img src="Images/CATTLE.png" class="slider-image">
-                <img src="Images/PACT.png" class="slider-image">  
-            </marquee>
-</article>
+                </h2>
+            
+            <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <img src="Images/HURT.png" alt="Jane">
+                    <div class="container">
+                      <h2>David Goggins</h2>
+                      <p class="title"><h5 id="ii">Title: CAN'T HURT ME</h5></p>
+                      <p id="price"> Price: R305.00</p>
+                      <p>hayasarel@sefer.com</p>
+                      <p><button class="button">Order Now😊 </button></p>
+
+                    </div>
+                 </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                      <img src="Images/VIRTUE.jpg" alt="Jane">
+                      <div class="container">
+                        <h2>Tomi Adeyemi</h2>
+                        <p class="title"><h5 id="ii">Title: CHILDREN OF VIRTUE AND VENGEANCE</h5></p>
+                        <p id="price">Price: R275.50</p>
+                        <p>hayasarel@sefer.com</p>
+                        <p><button class="button">Order Now😊 </button></p>
+                      </div>
+                   </div>
+                  </div>
+                  <div class="column">
+                    <div class="card">
+                      <img src="Images/IQUNGA.png" alt="Jane">
+                      <div class="container">
+                        <h2>Dudu Busani-Dube</Busani-Dube></h2>
+                        <p class="title"><h5 id="ii">Title: IQUNGA</h5></p>
+                        <p id="price">Price: R399.99</p>
+                        <p>hayasarel@sefer.com</p>
+                        <p><button class="button">Order Now😊 </button></p>
+                      </div>
+                   </div>
+                  </div>
+                  <div class="column">
+                    <div class="card">
+                      <img src="Images/CATTLE.png" alt="Jane">
+                      <div class="container">
+                        <h2>Sindiwe Magona</h2>
+                        <p class="title"><h5 id="ii">Title: CHASING THE TAILS...</h5></p>
+                        <p id="price">Price: R299.99</p>
+                        <p>hayasarel@sefer.com</p>
+                        <p><button class="button">Order Now😊 </button></p>
+                      </div>
+                   </div>
+                  </div>
+                  <div class="column">
+                    <div class="card">
+                      <img src="Images/KILL.png" alt="Jane" >
+                      <div class="container">
+                        <h2>Ronan Farrow</h2>
+                        <p class="title"><h5 id="ii">Title: CATCH AND KILL</h5></p>
+                        <p id="price">Price: R459.99</p>
+                        <p>hayasarel@sefer.com</p>
+                        <p><button class="button">Order Now😊 </button></p>
+                      </div>
+                   </div>
+                  </div>
+                  <div class="column">
+                    <div class="card">
+                      <img src="Images/CATCHER.png" alt="Jane">
+                      <div class="container">
+                        <h2>J.D. Salinger</h2>
+                        <p class="title"><h5 id="ii">Title: CATCHER IN THE RYE</h5></p>
+                        <p id="price">Price: R249.99</p>
+                        <p>hayasarel@sefer.com</p>
+                        <p><button class="button">Order Now😊 </button></p>
+                      </div>
+                   </div>
+                  </div>
+                  
+                </div>
+
+            
 
 <footer>
     This is the footer, okay.
 </footer>
 
 </body>
-
 </html>
