@@ -11,6 +11,9 @@ h1 {
     text-align: center;
     text-decoration: underline;
 }
+#top10{
+  color: yellow;
+}
 #ii{
     color: rgb(235, 75, 47);
     text-decoration: underline;
@@ -20,7 +23,7 @@ h1 {
     text-decoration: underline;
 }
 p{
-    color: palevioletred;
+    color: white;
 }
 h2{
     color: rgb(64, 224, 198);
@@ -33,14 +36,22 @@ header {
     color: white;
     font-size: 20px;
 }
-
 body {
     background-image:url("../Images/1Ancient1.png");
     background-size: 100%;
     background-repeat: repeat;
 }
-
-
+@media only screen and (max-width: 600px) {
+  body {
+    background-image:url("../Images/1Ancient1.png");
+    background-size: 100%;
+    background-repeat: repeat;;
+  }
+#footer { 
+  color: red;
+  background-color: #00b128; 
+} 
+}
 nav ul {
     list-style: none;
     padding: 10px;
@@ -68,10 +79,11 @@ article {
     display: contents;
 }
 footer {
-    padding: 18px;
+    padding: 20px;
     background-color: lightgoldenrodyellow;
     text-align: center;
-    background-image:url("../Images/1Patterns.jpg");
+    background-color: rgb(92, 69, 26);
+   /* background-image:url("../Images/1Patterns.jpg");*/
   }
 #search {
     float: right;
