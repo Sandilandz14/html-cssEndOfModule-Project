@@ -181,11 +181,6 @@ nav a{
     color: #fff;
 }
 
-/*Styling FAQ page*/
-#faq0 {
-    
-}
-
 @media only screen and (max-width: 600px) {
   #navb{
     padding-inline-start: 5px;
@@ -196,4 +191,7 @@ nav a{
   .column {
     width: 100%;
   }
+}
+ul{
+  color: yellow
 }
