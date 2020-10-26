@@ -41,11 +41,7 @@ body {
     background-size: 100%;
     background-repeat: repeat;
 }
-@media only screen and (max-width: 600px) {
-  #navb{
-    padding-inline-start: 5px;
-  }
-}
+
 #footer { 
   color: red;
   background-color: #00b128; 
@@ -188,4 +184,16 @@ nav a{
 /*Styling FAQ page*/
 #faq0 {
     
+}
+
+@media only screen and (max-width: 600px) {
+  #navb{
+    padding-inline-start: 5px;
+  }
+  #row{
+    padding-inline-start: 5px;
+  }
+  .column {
+    width: 100%;
+  }
 }
